@@ -1,0 +1,251 @@
+
+body {
+    background-color: orange;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+
+
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #131921;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+.busqueda {
+  background-color: #131921;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.busqueda input {
+  width: 500px;
+  height: 30px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.busqueda input::placeholder {
+  color: black;
+  padding: 20px;
+  font-size: 12px;
+  }
+
+  .promo img{
+    height: 40%;
+    width: 100%;
+background-repeat: no-repeat;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin: 3%;
+    margin-bottom: 2%;
+    height: fit-content;
+    
+}
+
+.container img {
+    width: 35%;
+    margin: 2%;
+    align-self: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-right: 0%;
+    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.texto h5 {
+   background-color: orange;
+   display: inline-block;
+   color: white;
+   padding: 5px 10px;
+   margin: 1%;
+   align-self: self-start;
+}
+
+.texto h2 {
+    color: black;
+    margin: 0%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.texto img {
+    margin: 0%;
+    align-self: self-start;
+    height: 60%;
+    width: 60%;
+    margin-bottom: 9%;
+}
+
+.texto p {
+    color: grey;
+    text-decoration: line-through;
+    margin: 0%;
+    margin-top: 7%;
+}
+.texto h1 {
+    color: orange;
+    margin: 0%;
+}
+.texto h4 {
+    margin: 0%;
+    color: grey;
+    margin-top: 2%;
+}
+
+.acciones {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  width: 300px;
+  margin: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.acciones h5 {
+  color: rgb(95, 95, 236);
+  margin: 0%;
+  font-size: medium;
+}
+.acciones p {
+  color: grey;
+  font-weight: 100;
+  margin: 0%;
+  font-size: small;
+  margin-bottom: 13%;
+}
+.acciones .boton {
+  color: rgb(225, 255, 228);
+  background-color: orange;
+  border: none;
+  padding: 5%;
+  width: 300px;
+  align-self: center;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 10px;
+  margin-top: 6%;
+}
+.boton:hover {
+  background-color: black;
+  color: white;
+}
+.boton:active {
+  background-color: orange;
+  color: white;
+}
+
+.acciones .boton2 {
+  color: rgb(239, 239, 239);
+  background-color:rgb(90, 75, 255);
+  border: none;
+  padding: 5%;
+  width: 300px;
+  align-self: center;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.boton2:hover {
+  background-color: black;
+  color: white;
+}
+.boton2:active {
+  background-color: black;
+  color: white;
+}
+.acciones h4 {
+  color: grey;
+  margin-top: 12%;
+}
+
+.acciones a {
+  font-weight: 600;
+  text-decoration: none;
+  color: orange;
+  align-self: center;
+  font-size: small;
+  margin-top: 5%;
+}
+
+.fotos {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(16, 52, 12, 0.489);
+  height: fit-content;
+  margin-top: 0%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.fotos img {
+  height: 10%;
+  width: 10%;
+  margin: 1%;
+  border-color: orange;
+}
+
+.pantalla{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(16, 52, 12, 0.3);
+  margin: 3%;
+  height: fit-content;
+}
